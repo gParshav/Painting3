@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import '../../App.css';
+import Cards from '../Cards';
+import Footer from '../Footer';
 
-function Products() {
-  return (
-    <div>Products</div>
-  )
+export default function Products() {
+  return(
+     <>
+     <h1 className='products'>PRODUCTS</h1>
+     <Cards />
+     <Footer />
+     </>
+     )
 }
-
-export default Products
